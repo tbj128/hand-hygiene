@@ -8,9 +8,11 @@ Due to limited number of samples, the main approach used transfer learning. The 
 - ResNet-50 base model
 - ConvLSTM2D layer
 - AvgPool
+- Dense (128)
+- Dropout (0.2)
 - Dense (sigmoid)
 
-### Results
-- Train Accuracy: 96.7%
-- Val Accuracy: 80.4%
-- Trained over 27 epochs
+### Results (best model)
+- Train Accuracy: 95.8%
+- Val Accuracy: 87.5%
+- Trained over 29 epochs
